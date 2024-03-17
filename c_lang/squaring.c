@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #define NMAX 10
 
