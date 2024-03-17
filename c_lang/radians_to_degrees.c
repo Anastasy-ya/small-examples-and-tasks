@@ -5,9 +5,10 @@
 int main() {
     int rad;
     double grad;
+    char c;
 
-    scanf("%d", &rad);
-    if (rad >= 0) {
+    scanf("%d%c", &rad, &c);
+    if (rad >= 0 && c == '\n') {
         grad = (double)rad * 57.29;
         printf("%.0lf", grad);
     } else {
