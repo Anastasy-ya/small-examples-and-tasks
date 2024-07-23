@@ -1,39 +1,39 @@
-# small-examples-and-tasks
+# examples-and-tasks
 
-## Запуск проектов на С (предварительно установить компилятор gcc если Вы работаете на Windows)
-_Может незначительно отличаться для различных ОС_
+## Running C Projects (install gcc compiler first if you are on Windows)
+_May slightly vary for different OS_
 
-1. Склонировать проект на ваш компьютер с [Github]() с помощью команды:
+1. Clone the project to your computer from Github using the command:
 ```
 git clone git@github.com:Anastasy-ya/small-examples-and-tasks.git
 ```
-2. Для запуска программы в папке structure перейдите в папку
+2. To run the program in the structure folder, navigate to the folder
 ```
 cd .\c_lang\structure\
 ```
-3. Сделайте сборку, программа автоматически создаст файл Quest.exe
+3. Build the project, the program will automatically create the Quest.exe file
 ```
 make
 ```
-4. Запустите проект:
+4. Run the project:
 ```
 .\Quest.exe
 ```
-5. Для компиляции файлов без Makefile используйте компилятор gcc, заменив название файла
+5. To compile files without a Makefile, use the gcc compiler, replacing the filename
 ```
 gcc -Wall -Werror -Wextra .\ball_mass.c
 ```
-6. Запустите проект:
+6. Run the project:
 ```
 .\a.exe
 ```
-7. Введите входные значения, нажмите enter:
+7. Enter the input values, press enter:
 ```
 ```
 
-## Запуск Bash скрипта для linux-подобных операционных систем
+## Running Bash Script for Linux-like Operating Systems
 
-Запустите проект, на вход нужен текстовый файл для редактирования, строка для поиска и строка для замены:
+Run the project, providing a text file for editing, a search string, and a replacement string:
 ```
 ./edit_text_file.sh ./text.txt old-text new-text
 или 
